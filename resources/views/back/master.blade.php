@@ -36,7 +36,8 @@
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
 			gtag('config', 'UA-122650090-3');
-		</script>
+        </script>
+        @yield('style')
 
 </head>
 
@@ -114,9 +115,10 @@
             });
         </script>
 
+        @yield('script')
+
     </body>
 
-<!-- Mirrored from watson-vcard.netlify.app/index-light-slider.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 13 Sep 2020 14:51:37 GMT -->
 </html>
 
 

@@ -1,4 +1,7 @@
 @extends('back.master')
+@section('style')
+@endsection
+
 @section('content')
 <div class="container">
     <div class="row bg-light">
@@ -8,5 +11,9 @@
     </div>
 
 </div>
+    
+@endsection
+
+@section('script')
     
 @endsection
